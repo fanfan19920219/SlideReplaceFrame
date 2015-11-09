@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFAA028F1BF02AC9002E3E46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAA028E1BF02AC9002E3E46 /* main.m */; };
+		EFAA02921BF02ACA002E3E46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAA02911BF02ACA002E3E46 /* AppDelegate.m */; };
+		EFAA02951BF02ACA002E3E46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAA02941BF02ACA002E3E46 /* ViewController.m */; };
+		EFAA02981BF02ACA002E3E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAA02961BF02ACA002E3E46 /* Main.storyboard */; };
+		EFAA029A1BF02ACA002E3E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAA02991BF02ACA002E3E46 /* Assets.xcassets */; };
+		EFAA029D1BF02ACA002E3E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAA029B1BF02ACA002E3E46 /* LaunchScreen.storyboard */; };
+		EFAA02A81BF02ACA002E3E46 /* Slide_Button_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAA02A71BF02ACA002E3E46 /* Slide_Button_DemoTests.m */; };
+		EFAA02B31BF02ACA002E3E46 /* Slide_Button_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAA02B21BF02ACA002E3E46 /* Slide_Button_DemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAA02A41BF02ACA002E3E46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAA02821BF02AC9002E3E46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAA02891BF02AC9002E3E46;
+			remoteInfo = Slide_Button_Demo;
+		};
+		EFAA02AF1BF02ACA002E3E46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAA02821BF02AC9002E3E46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAA02891BF02AC9002E3E46;
+			remoteInfo = Slide_Button_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFAA028A1BF02AC9002E3E46 /* Slide_Button_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slide_Button_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAA028E1BF02AC9002E3E46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFAA02901BF02AC9002E3E46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFAA02911BF02ACA002E3E46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFAA02931BF02ACA002E3E46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFAA02941BF02ACA002E3E46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFAA02971BF02ACA002E3E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAA02991BF02ACA002E3E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFAA029C1BF02ACA002E3E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFAA029E1BF02ACA002E3E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAA02A31BF02ACA002E3E46 /* Slide_Button_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Slide_Button_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAA02A71BF02ACA002E3E46 /* Slide_Button_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slide_Button_DemoTests.m; sourceTree = "<group>"; };
+		EFAA02A91BF02ACA002E3E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAA02AE1BF02ACA002E3E46 /* Slide_Button_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Slide_Button_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAA02B21BF02ACA002E3E46 /* Slide_Button_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slide_Button_DemoUITests.m; sourceTree = "<group>"; };
+		EFAA02B41BF02ACA002E3E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAA02871BF02AC9002E3E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAA02A01BF02ACA002E3E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAA02AB1BF02ACA002E3E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAA02811BF02AC9002E3E46 = {
+			isa = PBXGroup;
+			children = (
+				EFAA028C1BF02AC9002E3E46 /* Slide_Button_Demo */,
+				EFAA02A61BF02ACA002E3E46 /* Slide_Button_DemoTests */,
+				EFAA02B11BF02ACA002E3E46 /* Slide_Button_DemoUITests */,
+				EFAA028B1BF02AC9002E3E46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAA028B1BF02AC9002E3E46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAA028A1BF02AC9002E3E46 /* Slide_Button_Demo.app */,
+				EFAA02A31BF02ACA002E3E46 /* Slide_Button_DemoTests.xctest */,
+				EFAA02AE1BF02ACA002E3E46 /* Slide_Button_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAA028C1BF02AC9002E3E46 /* Slide_Button_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFAA02901BF02AC9002E3E46 /* AppDelegate.h */,
+				EFAA02911BF02ACA002E3E46 /* AppDelegate.m */,
+				EFAA02931BF02ACA002E3E46 /* ViewController.h */,
+				EFAA02941BF02ACA002E3E46 /* ViewController.m */,
+				EFAA02961BF02ACA002E3E46 /* Main.storyboard */,
+				EFAA02991BF02ACA002E3E46 /* Assets.xcassets */,
+				EFAA029B1BF02ACA002E3E46 /* LaunchScreen.storyboard */,
+				EFAA029E1BF02ACA002E3E46 /* Info.plist */,
+				EFAA028D1BF02AC9002E3E46 /* Supporting Files */,
+			);
+			path = Slide_Button_Demo;
+			sourceTree = "<group>";
+		};
+		EFAA028D1BF02AC9002E3E46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFAA028E1BF02AC9002E3E46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFAA02A61BF02ACA002E3E46 /* Slide_Button_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAA02A71BF02ACA002E3E46 /* Slide_Button_DemoTests.m */,
+				EFAA02A91BF02ACA002E3E46 /* Info.plist */,
+			);
+			path = Slide_Button_DemoTests;
+			sourceTree = "<group>";
+		};
+		EFAA02B11BF02ACA002E3E46 /* Slide_Button_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAA02B21BF02ACA002E3E46 /* Slide_Button_DemoUITests.m */,
+				EFAA02B41BF02ACA002E3E46 /* Info.plist */,
+			);
+			path = Slide_Button_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAA02891BF02AC9002E3E46 /* Slide_Button_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAA02B71BF02ACA002E3E46 /* Build configuration list for PBXNativeTarget "Slide_Button_Demo" */;
+			buildPhases = (
+				EFAA02861BF02AC9002E3E46 /* Sources */,
+				EFAA02871BF02AC9002E3E46 /* Frameworks */,
+				EFAA02881BF02AC9002E3E46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slide_Button_Demo;
+			productName = Slide_Button_Demo;
+			productReference = EFAA028A1BF02AC9002E3E46 /* Slide_Button_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAA02A21BF02ACA002E3E46 /* Slide_Button_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAA02BA1BF02ACA002E3E46 /* Build configuration list for PBXNativeTarget "Slide_Button_DemoTests" */;
+			buildPhases = (
+				EFAA029F1BF02ACA002E3E46 /* Sources */,
+				EFAA02A01BF02ACA002E3E46 /* Frameworks */,
+				EFAA02A11BF02ACA002E3E46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAA02A51BF02ACA002E3E46 /* PBXTargetDependency */,
+			);
+			name = Slide_Button_DemoTests;
+			productName = Slide_Button_DemoTests;
+			productReference = EFAA02A31BF02ACA002E3E46 /* Slide_Button_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFAA02AD1BF02ACA002E3E46 /* Slide_Button_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAA02BD1BF02ACA002E3E46 /* Build configuration list for PBXNativeTarget "Slide_Button_DemoUITests" */;
+			buildPhases = (
+				EFAA02AA1BF02ACA002E3E46 /* Sources */,
+				EFAA02AB1BF02ACA002E3E46 /* Frameworks */,
+				EFAA02AC1BF02ACA002E3E46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAA02B01BF02ACA002E3E46 /* PBXTargetDependency */,
+			);
+			name = Slide_Button_DemoUITests;
+			productName = Slide_Button_DemoUITests;
+			productReference = EFAA02AE1BF02ACA002E3E46 /* Slide_Button_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAA02821BF02AC9002E3E46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ylk;
+				TargetAttributes = {
+					EFAA02891BF02AC9002E3E46 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EFAA02A21BF02ACA002E3E46 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EFAA02891BF02AC9002E3E46;
+					};
+					EFAA02AD1BF02ACA002E3E46 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EFAA02891BF02AC9002E3E46;
+					};
+				};
+			};
+			buildConfigurationList = EFAA02851BF02AC9002E3E46 /* Build configuration list for PBXProject "Slide_Button_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAA02811BF02AC9002E3E46;
+			productRefGroup = EFAA028B1BF02AC9002E3E46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAA02891BF02AC9002E3E46 /* Slide_Button_Demo */,
+				EFAA02A21BF02ACA002E3E46 /* Slide_Button_DemoTests */,
+				EFAA02AD1BF02ACA002E3E46 /* Slide_Button_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAA02881BF02AC9002E3E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAA029D1BF02ACA002E3E46 /* LaunchScreen.storyboard in Resources */,
+				EFAA029A1BF02ACA002E3E46 /* Assets.xcassets in Resources */,
+				EFAA02981BF02ACA002E3E46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAA02A11BF02ACA002E3E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAA02AC1BF02ACA002E3E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAA02861BF02AC9002E3E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAA02951BF02ACA002E3E46 /* ViewController.m in Sources */,
+				EFAA02921BF02ACA002E3E46 /* AppDelegate.m in Sources */,
+				EFAA028F1BF02AC9002E3E46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAA029F1BF02ACA002E3E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAA02A81BF02ACA002E3E46 /* Slide_Button_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAA02AA1BF02ACA002E3E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAA02B31BF02ACA002E3E46 /* Slide_Button_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAA02A51BF02ACA002E3E46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAA02891BF02AC9002E3E46 /* Slide_Button_Demo */;
+			targetProxy = EFAA02A41BF02ACA002E3E46 /* PBXContainerItemProxy */;
+		};
+		EFAA02B01BF02ACA002E3E46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAA02891BF02AC9002E3E46 /* Slide_Button_Demo */;
+			targetProxy = EFAA02AF1BF02ACA002E3E46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAA02961BF02ACA002E3E46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAA02971BF02ACA002E3E46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAA029B1BF02ACA002E3E46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAA029C1BF02ACA002E3E46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAA02B51BF02ACA002E3E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFAA02B61BF02ACA002E3E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAA02B81BF02ACA002E3E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Slide_Button_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.Slide-Button-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFAA02B91BF02ACA002E3E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Slide_Button_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.Slide-Button-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFAA02BB1BF02ACA002E3E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Slide_Button_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.Slide-Button-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slide_Button_Demo.app/Slide_Button_Demo";
+			};
+			name = Debug;
+		};
+		EFAA02BC1BF02ACA002E3E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Slide_Button_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.Slide-Button-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slide_Button_Demo.app/Slide_Button_Demo";
+			};
+			name = Release;
+		};
+		EFAA02BE1BF02ACA002E3E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Slide_Button_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.Slide-Button-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Slide_Button_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EFAA02BF1BF02ACA002E3E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Slide_Button_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.Slide-Button-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Slide_Button_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAA02851BF02AC9002E3E46 /* Build configuration list for PBXProject "Slide_Button_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAA02B51BF02ACA002E3E46 /* Debug */,
+				EFAA02B61BF02ACA002E3E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAA02B71BF02ACA002E3E46 /* Build configuration list for PBXNativeTarget "Slide_Button_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAA02B81BF02ACA002E3E46 /* Debug */,
+				EFAA02B91BF02ACA002E3E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFAA02BA1BF02ACA002E3E46 /* Build configuration list for PBXNativeTarget "Slide_Button_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAA02BB1BF02ACA002E3E46 /* Debug */,
+				EFAA02BC1BF02ACA002E3E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFAA02BD1BF02ACA002E3E46 /* Build configuration list for PBXNativeTarget "Slide_Button_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAA02BE1BF02ACA002E3E46 /* Debug */,
+				EFAA02BF1BF02ACA002E3E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAA02821BF02AC9002E3E46 /* Project object */;
+}
