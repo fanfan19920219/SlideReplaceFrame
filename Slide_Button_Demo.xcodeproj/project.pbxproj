@@ -15,6 +15,8 @@
 		EFAA029D1BF02ACA002E3E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAA029B1BF02ACA002E3E46 /* LaunchScreen.storyboard */; };
 		EFAA02A81BF02ACA002E3E46 /* Slide_Button_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAA02A71BF02ACA002E3E46 /* Slide_Button_DemoTests.m */; };
 		EFAA02B31BF02ACA002E3E46 /* Slide_Button_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAA02B21BF02ACA002E3E46 /* Slide_Button_DemoUITests.m */; };
+		EFAA03081BF046DF002E3E46 /* model_View.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAA03071BF046DF002E3E46 /* model_View.m */; };
+		EFAA030B1BF048DE002E3E46 /* model_button.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAA030A1BF048DE002E3E46 /* model_button.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		EFAA02AE1BF02ACA002E3E46 /* Slide_Button_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Slide_Button_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAA02B21BF02ACA002E3E46 /* Slide_Button_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slide_Button_DemoUITests.m; sourceTree = "<group>"; };
 		EFAA02B41BF02ACA002E3E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAA03061BF046DF002E3E46 /* model_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_View.h; sourceTree = "<group>"; };
+		EFAA03071BF046DF002E3E46 /* model_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model_View.m; sourceTree = "<group>"; };
+		EFAA03091BF048DE002E3E46 /* model_button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model_button.h; sourceTree = "<group>"; };
+		EFAA030A1BF048DE002E3E46 /* model_button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model_button.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				EFAA02911BF02ACA002E3E46 /* AppDelegate.m */,
 				EFAA02931BF02ACA002E3E46 /* ViewController.h */,
 				EFAA02941BF02ACA002E3E46 /* ViewController.m */,
+				EFAA03061BF046DF002E3E46 /* model_View.h */,
+				EFAA03071BF046DF002E3E46 /* model_View.m */,
+				EFAA03091BF048DE002E3E46 /* model_button.h */,
+				EFAA030A1BF048DE002E3E46 /* model_button.m */,
 				EFAA02961BF02ACA002E3E46 /* Main.storyboard */,
 				EFAA02991BF02ACA002E3E46 /* Assets.xcassets */,
 				EFAA029B1BF02ACA002E3E46 /* LaunchScreen.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				EFAA02951BF02ACA002E3E46 /* ViewController.m in Sources */,
 				EFAA02921BF02ACA002E3E46 /* AppDelegate.m in Sources */,
+				EFAA03081BF046DF002E3E46 /* model_View.m in Sources */,
+				EFAA030B1BF048DE002E3E46 /* model_button.m in Sources */,
 				EFAA028F1BF02AC9002E3E46 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,7 +356,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -366,6 +378,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e5592f94-421f-4659-984e-bf6f1585d560";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -387,7 +400,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -402,6 +415,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e5592f94-421f-4659-984e-bf6f1585d560";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -411,10 +425,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = Slide_Button_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.Slide-Button-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e5592f94-421f-4659-984e-bf6f1585d560";
 			};
 			name = Debug;
 		};
@@ -422,10 +438,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = Slide_Button_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.Slide-Button-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e5592f94-421f-4659-984e-bf6f1585d560";
 			};
 			name = Release;
 		};
@@ -496,6 +514,7 @@
 				EFAA02B91BF02ACA002E3E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFAA02BA1BF02ACA002E3E46 /* Build configuration list for PBXNativeTarget "Slide_Button_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				EFAA02BC1BF02ACA002E3E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFAA02BD1BF02ACA002E3E46 /* Build configuration list for PBXNativeTarget "Slide_Button_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +532,7 @@
 				EFAA02BF1BF02ACA002E3E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
